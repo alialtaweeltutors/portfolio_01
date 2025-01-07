@@ -1,0 +1,32 @@
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    /* background-image: url("../imges/destination/background-destination-desktop.jpg"); */
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 82.8vh;
+  }
+  #hero{
+    position: relative;
+  }
+  #hero img{
+    border-radius: 50%;
+    mask-image: radial-gradient(circle, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 66%);
+  }
+  
+  .hero #hero_h1 {
+    margin: 4rem 0px 0px;
+    font-size: 3rem;
+    display: inline-block;
+    box-sizing: border-box;
+    max-height: calc(180px - 2rem);
+    width: auto;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }

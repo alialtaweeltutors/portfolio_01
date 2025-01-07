@@ -1,0 +1,20 @@
+#contact{
+    background-color: rgba(241, 237, 237, 0.451);
+}
+#contact-container{
+    display: flex;
+    padding: 30px;
+}
+#contact form {
+    width: 50%;
+}
+#contact_text{
+    width: 50%;
+}
+#contact_h2{
+    font-size: 2.5rem;
+border-bottom: 5px solid red;
+width: fit-content;
+padding-bottom: 8px ;
+margin: 0px auto;
+}
