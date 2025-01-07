@@ -18,3 +18,15 @@ width: fit-content;
 padding-bottom: 8px ;
 margin: 0px auto;
 }
+
+@media (max-width: 768px) {
+    #contact form {
+        width: 100%;
+    }
+    #contact_text{
+        display: none;
+    }
+    #contact_h2{
+        font-size: 1.5rem;
+    }
+}

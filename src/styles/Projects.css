@@ -2,13 +2,15 @@
 .projects {
     padding: 4rem 2rem;
     text-align: center;
-    height: 100vh;
     background-color: #fafeff;
   }
   
   .projects h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    border-bottom: 5px solid red;
+    width: fit-content;
+    padding-bottom: 8px ;
+    margin: 50px auto;
   }
   
   /* Grid Container */
@@ -46,7 +48,7 @@
   /* Image Styling */
   .project-image {
     width: 100%;
-    height: 200px;
+
     border-radius: 8px;
     object-fit: cover;
     border-bottom: 1px solid #ddd;
@@ -59,7 +61,12 @@
     }
   
     .project-card {
-      padding: 1rem;
+      padding: 1rem ;
+      width: 80%;
+      margin: 1px;
+    }
+    .projects h2{
+      font-size: 1.5rem;
     }
   }
   

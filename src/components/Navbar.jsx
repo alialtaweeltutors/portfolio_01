@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="navbar-logo">Portfolio</h1>
+        <h1 className="navbar-logo">Ali.</h1>
         <button className="burger-menu" onClick={toggleMenu} aria-label="Toggle menu">
           <span className="burger-bar"></span>
           <span className="burger-bar"></span>

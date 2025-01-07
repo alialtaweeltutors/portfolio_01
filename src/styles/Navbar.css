@@ -1,4 +1,3 @@
-/* Navbar Container */
 /* Navbar */
 .navbar {
   display: flex;
@@ -7,81 +6,83 @@
   padding: 1rem 2rem;
   background-color: black;
   color: white;
+  position: relative; /* Add this to make the navbar a positioning context */
+}
+
+.navbar-logo {
+  font-style: italic;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .navbar a {
   color: white;
   margin-left: 1rem;
 }
-.navbar {
-    /* background-color: #007bff; */
-    color: white;
-    padding: 1rem 2rem;
-    position: relative;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* Logo */
-  .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  /* Links */
-  .navbar-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-links li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Responsive Behavior */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+/* Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive Behavior */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Hide navbar-links by default on small screens */
+@media (max-width: 768px) {
   .burger-menu {
+    display: flex;
+  }
+  
+  .navbar-links {
+    
     display: none;
     flex-direction: column;
-    gap: 0.3rem;
-    background: none;
-    border: none;
-    cursor: pointer;
+    position: absolute;
+    top: 100%; /* Position the menu below the navbar */
+    right: 22px;
+    background-color: black; /* Match the navbar background color */
+    padding: 1rem;
+    z-index: 1000; /* Ensure the menu is above other content */
+    text-align: center;
   }
-  
-  .burger-bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
+.navbar-links li:hover{
+  background-color: #333;
+}
+  .navbar-links.show-menu {
+    display: flex;
   }
-  
-  /* Hide navbar-links by default on small screens */
-  @media (max-width: 768px) {
-    .burger-menu {
-      display: flex;
-    }
-  
-    .navbar-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background-color: #007bff;
-      padding: 1rem;
-    }
-  
-    .navbar-links.show-menu {
-      display: flex;
-    }
-  }
-  
+}
