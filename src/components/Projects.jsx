@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Projects.css";
+import p1 from "../imges/background/x8skdsukkmwiwxejthio.jpg"
+import p2 from "../imges/background/mce.PNG"
 
 const Projects = () => {
     const projectList = [
@@ -7,7 +9,7 @@ const Projects = () => {
         id: 1,
         name: "Space tourism multi-page website",
         description: "Description for project 1",
-        image: "/imges/background/x8skdsukkmwiwxejthio.jpg",
+        image: p1,
         link:"https://alialtaweel.github.io/Space-tourism-multipage-website/index.html",
         // /portfolio/public/imges
       },
@@ -15,7 +17,7 @@ const Projects = () => {
         id: 2,
         name: "MCE Executer Finland",
         description: "Description for project 2",
-        image: "/imges/background/mce.PNG",
+        image: p2,
         link:"https://darkblue-pig-967810.hostingersite.com/",
       },
       {

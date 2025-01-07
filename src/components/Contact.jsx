@@ -24,7 +24,7 @@ const Contact = () => {
         </p>
         <p>
           You can also contact Straight shot to my inbox:{" "}
-          <a href="mailto:your_email@gmail.com">engalihaithaml@gmail>?</a>
+          <a href="mailto:your_email@gmail.com">engalihaithaml@gmail</a>
         </p>
       </div>
       </div>
