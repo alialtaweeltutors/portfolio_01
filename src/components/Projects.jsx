@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/Projects.css";
-import p1 from "../imges/background/x8skdsukkmwiwxejthio.jpg"
-import p2 from "../imges/background/mce.PNG"
+import p1 from "../imges/background/x8skdsukkmwiwxejthio.jpg";
+import p2 from "../imges/background/space-stars-background-2560-x-1600-lse9op6opf9ax17b.jpg";
+
 
 const Projects = () => {
     const projectList = [
