@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Projects.css";
 import p1 from "../imges/background/x8skdsukkmwiwxejthio.jpg";
 import p2 from "../imges/background/space-stars-background-2560-x-1600-lse9op6opf9ax17b.jpg";
+import p3 from "../imges/background/syo43ktrlu3huqaqye2c.jpg";
 
 
 const Projects = () => {
@@ -23,9 +24,10 @@ const Projects = () => {
       },
       {
         id: 3,
-        name: "Project 3",
+        name: "Advice Generator",
         description: "Description for project 3",
-        image: "/images/project3.jpg",
+        image: p3,
+        link: "https://alialtaweel.github.io/advice-generator-app-main/",
       },
       {
         id: 4,

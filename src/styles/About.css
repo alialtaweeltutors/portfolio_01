@@ -8,11 +8,13 @@
     width: fit-content;
     padding-bottom: 8px ;
     margin: 0px auto;
+
   }
   #about p{
     position: relative;
     font-size: 1.3rem;
     margin: 40px auto;
+    line-height: 25px;
   }
   #about_span_1{
     font-weight: bold;
