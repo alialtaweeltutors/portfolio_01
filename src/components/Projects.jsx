@@ -3,6 +3,7 @@ import "../styles/Projects.css";
 import p1 from "../imges/background/x8skdsukkmwiwxejthio.jpg";
 import p2 from "../imges/background/space-stars-background-2560-x-1600-lse9op6opf9ax17b.jpg";
 import p3 from "../imges/background/syo43ktrlu3huqaqye2c.jpg";
+import p4 from "../imges/background/fullstack.jpg";
 
 
 const Projects = () => {
@@ -31,9 +32,9 @@ const Projects = () => {
       },
       {
         id: 4,
-        name: "Project 4",
+        name: "Full Stack Open",
         description: "Description for project 4",
-        image: "/images/project4.jpg",
+        image: p4,
       },
     ];
   
