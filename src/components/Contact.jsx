@@ -15,10 +15,6 @@ const Contact = () => {
 
       <div id="contact_text">
         <p>
-          If you have any questions about me or my projects, or (politely) argue
-          about the best albums of the 2010s, I'm your girl!
-        </p>
-        <p>
           I'm available to grab a coffee and chat! Drop a comment, question,
           concern, or Spotify playlist, and thanks for stopping by!
         </p>
